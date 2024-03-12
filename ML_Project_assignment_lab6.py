@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the dataset from a CSV file
-file_path = "C:\\Users\\sai jaswanth\\Desktop\\ML_Project\\Parkinsson disease (1).csv"
+file_path = "Parkinsson disease (1).csv"
 
 if os.path.exists(file_path):
     data = pd.read_csv(file_path)  # Add this line to load the dataset
